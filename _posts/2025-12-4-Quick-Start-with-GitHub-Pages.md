@@ -29,80 +29,84 @@ title: Quick Start with GitHub Pages!
 
 **安装 Jekyll 主要步骤：**
 1. macOs 内置 ``/usr/bin/ruby`` 2.6.3p62 版本过低；导致 jekyll & bundler 安装失败；
-```
-sudo gem install jekyll bundler --source https://mirror.tuna.tsinghua.edu.cn/rubygems/
----
-ERROR:  Error installing jekyll:
-	The last version of rouge (>= 3.0, < 5.0) to support your Ruby & RubyGems was 3.30.0. Try installing it with `gem install rouge -v 3.30.0` and then running the current command again
-	rouge requires Ruby version >= 2.7. The current ruby version is 2.6.3.62.
-ERROR:  Error installing bundler:
-	The last version of bundler (>= 0) to support your Ruby & RubyGems was 2.4.22. Try installing it with `gem install bundler -v 2.4.22`
-	bundler requires Ruby version >= 3.2.0. The current ruby version is 2.6.3.62.
-```
+    ```
+    sudo gem install jekyll bundler --source https://mirror.tuna.tsinghua.edu.cn/rubygems/
+    ---
+    ERROR:  Error installing jekyll:
+        The last version of rouge (>= 3.0, < 5.0) to support your Ruby & RubyGems was 3.30.0. Try installing it with `gem install rouge -v 3.30.0` and then running the current command again
+        rouge requires Ruby version >= 2.7. The current ruby version is 2.6.3.62.
+    ERROR:  Error installing bundler:
+        The last version of bundler (>= 0) to support your Ruby & RubyGems was 2.4.22. Try installing it with `gem install bundler -v 2.4.22`
+        bundler requires Ruby version >= 3.2.0. The current ruby version is 2.6.3.62.
+    ```
 2. 因为 macOs 内置 ruby；所以 先安装 ``rbenv`` ruby env；再安装 ruby 3.3.10；又失败；
-```
-brew install rbenv ruby-build
----
-Warning: You are using macOS 11.
-We (and Apple) do not provide support for this old version.
-You may have better luck with MacPorts which supports older versions of macOS:
-  https://www.macports.org
+    ```
+    brew install rbenv ruby-build
+    ---
+    Warning: You are using macOS 11.
+    We (and Apple) do not provide support for this old version.
+    You may have better luck with MacPorts which supports older versions of macOS:
+    https://www.macports.org
 
-This is a Tier 3 configuration:
-  https://docs.brew.sh/Support-Tiers#tier-3
-You can report Tier 3 unrelated issues to Homebrew/* repositories!
-Read the above document before opening any issues or PRs.
+    This is a Tier 3 configuration:
+    https://docs.brew.sh/Support-Tiers#tier-3
+    You can report Tier 3 unrelated issues to Homebrew/* repositories!
+    Read the above document before opening any issues or PRs.
 
-==> Installing dependencies for rbenv: m4, autoconf, ca-certificates, openssl@3, pkgconf, readline and ruby-build
-==> Installing rbenv dependency: m4
-Error: Your Command Line Tools are too outdated.
-Update them from Software Update in System Preferences.
+    ==> Installing dependencies for rbenv: m4, autoconf, ca-certificates, openssl@3, pkgconf, readline and ruby-build
+    ==> Installing rbenv dependency: m4
+    Error: Your Command Line Tools are too outdated.
+    Update them from Software Update in System Preferences.
 
-If that doesn't show you any updates, run:
-  sudo rm -rf /Library/Developer/CommandLineTools
-  sudo xcode-select --install
+    If that doesn't show you any updates, run:
+    sudo rm -rf /Library/Developer/CommandLineTools
+    sudo xcode-select --install
 
-Alternatively, manually download them from:
-  https://developer.apple.com/download/all/.
-You should download the Command Line Tools for Xcode 13.2.1.
-```
+    Alternatively, manually download them from:
+    https://developer.apple.com/download/all/.
+    You should download the Command Line Tools for Xcode 13.2.1.
+    ```
 3. 在 macOs ``系统偏好设置`` & ``软件更新`` 更新 Command Line Tools；
 4. 通过 rbenv 安装 ruby；
-```
-rbenv install -l
-rbenv install 3.3.10
-rbenv versions
-    * system
-      3.3.10
+    ```
+    rbenv install -l
+    rbenv install 3.3.10
+    rbenv versions
+        * system
+        3.3.10
 
-rbenv global 3.3.10
-echo 'eval "$(rbenv init - zsh)"' >> ~/.zshrc
-```
+    rbenv global 3.3.10
+    echo 'eval "$(rbenv init - zsh)"' >> ~/.zshrc
+    ```
 5. 通过 gem 安装 jekyll & bundler & github-pages；
-```
-gem sources -l
-    *** CURRENT SOURCES ***
+    ```
+    gem sources -l
+        *** CURRENT SOURCES ***
 
-    https://rubygems.org/
-    https://mirrors.aliyun.com/rubygems/
+        https://rubygems.org/
+        https://mirrors.aliyun.com/rubygems/
 
-gem sources --add https://mirrors.aliyun.com/rubygems/
+    gem sources --add https://mirrors.aliyun.com/rubygems/
 
-gem install github-pages
-    sass's executable "sass" conflicts with sass-embedded
-    Overwrite the executable? [yN]  ERROR:  Error installing github-pages:
-	    "sass" from sass conflicts with installed executable from sass-embedded
+    gem install github-pages
+        sass's executable "sass" conflicts with sass-embedded
+        Overwrite the executable? [yN]  ERROR:  Error installing github-pages:
+            "sass" from sass conflicts with installed executable from sass-embedded
 
-gem install github-pages --force
-```
+    gem install github-pages --force
+    ```
 
 
 **``使用 Jekyll 向 GitHub Pages 站点添加内容`` 见 [Jekyll Now](https://github.com/barryclark/jekyll-now/)**
+
 ``Jekyll Now`` 上一次 commit 还是 2016；``README.md`` 也提到了 Jekyll 3 兼容性；现在已是 Jekyll 4；
-```
-March, 2016: If you're on an old version of Jekyll Now and run into a) build warnings or b) syntax highlighting issues caused by Jekyll 3 and GitHub Pages updates, just ✨update your _config.yml✨ and you'll be set!
-```
+
+    ```
+    March, 2016: If you're on an old version of Jekyll Now and run into a) build warnings or b) syntax highlighting issues caused by Jekyll 3 and GitHub Pages updates, just ✨update your _config.yml✨ and you'll be set!
+    ```
+
 但是因为 [姚顺雨 GitHub Pages](https://ysymyth.github.io/) 与 ``Disqus commenting`` 特性；先这样；
+
 以后看如何接入 GitHub 与微博等国内社媒平台；
 
 

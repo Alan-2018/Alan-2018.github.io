@@ -84,8 +84,3 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-
-include:
-  - images/_posts
-
-

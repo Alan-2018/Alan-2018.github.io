@@ -24,7 +24,7 @@ title: Something about Palantir AIP & Foundry
 
 ``Human Agent Teaming`` AND BPR(Business Process Reengineering)： 进行时。
 
-<img src="{{ site.baseurl }}/images/_posts/2025-12-20-Something-about-Palantir-AIP-&-Foundry/Palantir-AIP-Human-Agent-Teaming.jpg" alt="Palantir AIP Human Agent Teaming"/>
+    <img src="{{ site.baseurl }}/images/posts/2025-12-20-Something-about-Palantir-AIP-%26-Foundry/Palantir-AIP-Human-Agent-Teaming.jpg" alt="Palantir AIP Human Agent Teaming"/>
 
 那么，What is AIP? ``Palantir AIP(Artificial Intelligence Platform) 旨在将大语言模型带入企业，驱动运营流程自动化。``
 
@@ -36,7 +36,7 @@ title: Something about Palantir AIP & Foundry
 
 ``trust``，``that trust is a core part of the concepts around human-agent teaming here.``，信任；可观测性 与 可解释性（比如：AI深度思考推理过程）；
 
-    <img src="{{ site.baseurl }}/images/_posts/2025-12-20-Something-about-Palantir-AIP-&-Foundry/Palantir-AIP-applications.jpg" alt="Palantir AIP applications"/>
+    <img src="{{ site.baseurl }}/images/posts/2025-12-20-Something-about-Palantir-AIP-%26-Foundry/Palantir-AIP-applications.jpg" alt="Palantir AIP applications"/>
 
 虽然“产品演示”眼花缭乱，但其与 ``Dify`` 没有本质区别。
 
@@ -44,7 +44,7 @@ title: Something about Palantir AIP & Foundry
 
 此外，``data integration``；数据集成应该是其“起点”；不过这似乎属于 ``Foundry``。
 
-    <img src="{{ site.baseurl }}/images/_posts/2025-12-20-Something-about-Palantir-AIP-&-Foundry/Palantir-AIP-data-integration.jpg" alt="Palantir AIP data integration"/>
+    <img src="{{ site.baseurl }}/images/posts/2025-12-20-Something-about-Palantir-AIP-%26-Foundry/Palantir-AIP-data-integration.jpg" alt="Palantir AIP data integration"/>
 
 
 **Foundry**

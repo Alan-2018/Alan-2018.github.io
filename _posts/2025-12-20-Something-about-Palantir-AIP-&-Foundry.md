@@ -17,7 +17,11 @@ title: Something about Palantir AIP & Foundry
 与 AGI 类似，``Anthropic CEO 达里奥・阿莫迪（Dario Amodei）明确称 AGI 是 “营销术语（marketing term）”。``，演讲稿即营销术语，如下图：
 
 <div style="text-align: center;">
-<img src="{{ site.baseurl }}/images/_posts/temp.jpg" alt="Palantir AIP Terminal" style="width: 400px;"/>
+<img src="{{ site.baseurl }}/images/temp.jpg" alt="Palantir AIP Terminal" style="width: 400px;"/>
+</div>
+
+<div style="text-align: center;">
+<img src="{{ site.baseurl }}/images/404.jpg" alt="Palantir AIP Terminal" style="width: 400px;"/>
 </div>
 
 <div style="text-align: center;">

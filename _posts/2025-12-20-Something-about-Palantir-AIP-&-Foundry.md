@@ -21,6 +21,10 @@ title: Something about Palantir AIP & Foundry
 </div>
 
 <div style="text-align: center;">
+<img src="{{ site.baseurl }}/images/_posts/temp.jpg" alt="Palantir AIP Terminal" style="width: 400px;"/>
+</div>
+
+<div style="text-align: center;">
 <img src="{{ site.baseurl }}/images/404.jpg" alt="Palantir AIP Terminal" style="width: 400px;"/>
 </div>
 
